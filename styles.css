@@ -1,0 +1,172 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: hsl(68, 95%, 50%);
+    color: rgb(15, 4, 97);
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: hsl(226, 92%, 19%);
+}
+
+.data-display {
+ 
+}
+
+.medication-list,
+.appointment-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.activity-plan {
+}
+
+footer {
+    background-color: #7ed9ea;
+    color: rgb(36, 3, 63);
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: #0b022c;
+    text-decoration: none;
+}
+
+.reminder {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    background-color: #f14d0c;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reminder h3 {
+    color: #f2eff6;
+    margin: 0;
+}
+
+.reminder p {
+    margin: 5px 0;
+}
+
+.medication-reminder {
+    background-color: #f5f10b;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.medication-reminder h3 {
+    color: #11043f;
+    margin: 0;
+}
+
+.medication-reminder p {
+    margin: 5px 0;
+}
+
+.physical-activity {
+    background-color: #19dfed;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.physical-activity h3 {
+    color: #27042c;
+    margin: 0;
+}
+
+.physical-activity p {
+    margin: 5px 0;
+}
+
+.appointment-reminder {
+    background-color: #f7b2ec;
+    border: 1px solid #320404;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(236, 114, 171, 0.1);
+}
+
+.appointment-reminder h3 {
+    color: #10021f;
+    margin: 0;
+}
+
+.appointment-reminder p {
+    margin: 5px 0;
+}
+
+h2 {
+    transition: color 0.3s ease;
+}
+
+h2:hover {
+    color: #e57373;
+}
+
+.reminder,
+.medication-reminder,
+.physical-activity,
+.appointment-reminder {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reminder:hover,
+.medication-reminder:hover,
+.physical-activity:hover,
+.appointment-reminder:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #e57373;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in-animation {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
